@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'YOUR_GITHUB_REPOSITORY_URL'
+                git branch: 'main', url: 'https://github.com/Kaniha4/24MIS0398_Assessment7_P3.git'
             }
         }
 
